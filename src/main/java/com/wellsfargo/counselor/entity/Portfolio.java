@@ -23,6 +23,10 @@ public class Portfolio {
         this.creationDate = creationDate;
     }
 
+    public long getPortfolioId() {
+        return portfolioId;
+    }
+
     public void setCreationDate(String creationDate) {
         this.creationDate = creationDate;
     }

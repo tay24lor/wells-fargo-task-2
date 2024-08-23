@@ -27,6 +27,10 @@ public class Security {
     @ManyToOne
     private Portfolio portfolio;
 
+    public long getSecurityId() {
+        return securityId;
+    }
+
     public String getName() {
         return name;
     }
